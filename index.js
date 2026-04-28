@@ -5,8 +5,8 @@ import axios from 'axios';
 const app = express();
 const port = process.env.PORT || 3000;
 
-const LINE_CHANNEL_ACCESS_TOKEN = '...';
-const DIFY_API_KEY = '...';
+const LINE_CHANNEL_ACCESS_TOKEN = 'DuAeExZeNhEfZVAc6WJdyfivBmOHxIH1xc+SR/xZgmtEis3rVdn320c2K/rsWdl/4B+kUTNQC9OOYXAuTVdJYX1BY/KdUbppHC1co1ng+3OHZH0tRK3ZrkhIsU+VTH3v+9id9yiKNogLICcSeu6nawdB04t89/1O/w1cDnyilFU=';
+const DIFY_API_KEY = 'app-fDzmyPXruuqLhSw4tCqLfye7';
 const DIFY_ENDPOINT = 'https://api.dify.ai/v1/chat-messages';
 const SLACK_WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL;
 
